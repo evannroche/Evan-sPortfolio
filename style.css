@@ -1,0 +1,297 @@
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+}
+
+
+a {
+    color: #1b0669;
+    text-decoration: none;
+}
+a:hover {
+    color: gray;
+}
+
+.left {
+  width: 60%;
+  padding: 10%;
+  font-size: 1.01em;
+  
+}
+
+.aboutme {
+  width: 100%;
+  height: 100%;
+  float: center;
+}
+
+.explore {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
+
+td {
+  align: center;
+}
+
+
+
+.aboutmeimg {
+  width: 21.875em;
+  height: 26.125em;
+}
+
+header {
+  margin: -1.25em; 
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  position: fixed;
+  width: 100%;
+  background: black;
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
+/* 
+    Title: How To Create a Gradient Background on Scroll
+    Author: Not Given
+    Date: Not Given
+    Code version: Not Given
+    Availability: https://www.w3schools.com/howto/howto_css_bg_gradient_scroll.asp
+*/
+  opacity: 1;
+  z-index: 1;
+}
+
+li {
+  float: left;
+  display: block;
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 1.25em;
+  top: 50%;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+
+
+.title {
+  padding-top: 10.625em;
+  right: 3.125em;
+  position: static; 
+  text-align: left;
+  margin-left: 37.5em;
+  color: white;
+}
+
+.projecttxt {
+  width: 50%;
+  font-size: 1.1em;
+  position: absolute;
+  margin-top: 11.25em;
+  font-family: "Open Sans";
+}
+
+.projecttxt2 {
+  width: 50%;
+  font-size: 1.1em;
+  position: absolute;
+  margin-top: 730px;
+  font-family: "Open Sans";
+}
+
+
+/*start */
+.image {
+  width: 630px;
+  height: 500px;
+}
+.slider {
+  width: 550px;
+  height: 510px;
+  display: flex;
+  position: absolute;
+  left: 770px;
+  top: 380px;
+  z-index: -1;
+}
+.align {
+  left: 770px;
+  top: 640px;
+}
+
+.align3 {
+  left: 770px;
+  top: 1230px;
+}
+
+.align4 {
+  left: 770px;
+  top: 1540px;
+}
+
+.slide {
+  width: 650px;
+  flex-shrink: 0;
+  height: 100%;
+  scroll-snap-align: start;
+}
+/*Ended */
+
+/* 
+    Title: CSS-tricks
+    Author: Chris Coyer
+    Date: May 7, 2019
+    Code version: Not Given
+    Availability: https://css-tricks.com/can-get-pretty-far-making-slider-just-html-css/ 
+*/
+
+.box {
+  border: 1px solid rgba(0, 0, 2, 0.4);
+  padding: 10px;
+
+}
+
+
+.banner {
+  width: 102%;
+  height: 350px;
+  background-color: rgba(29, 161, 242, 1);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  background: black; 
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
+}
+
+.banner1 {
+  width: 102%;
+  height: 800px;
+  background-color: rgba(29, 161, 242, 1);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  margin-left: -10px;
+  background: black; 
+  background: linear-gradient(55deg, #8a8b8b 0%, #959595 51%, #8a8b8b 85%); 
+}
+
+.pdf {
+  width: 100%;
+  height: 138em;
+}
+
+.link a:hover {
+  color: gray;
+}
+
+.box2 {
+  display: block;
+  width: 40%;
+  float: center;
+  margin: auto;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  height: 200px;
+  box-shadow: 12px 12px 2px 1px;
+  text-align: center;
+  padding: 70px;
+  background-color: #f0faff;
+  border: 1px solid #bae8ff;
+}
+
+@media only screen and (max-width: 730px) {
+  .intro{
+    font-size: 28px; 
+  }
+  .aboutmeimg {
+    width: 150px;
+    height: 218px;
+  }
+  .aboutmeim1g {
+    height: 218px;
+    width: 300px;
+  }
+  .header {
+    font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .box2 {
+    font-size: 0.6em
+  }
+  .title {
+    text-align: left;
+    right: -100px;
+  }
+  li a {
+    padding-top: 50%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  html {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .box2 {
+    font-size: 0.6em
+  }
+  .title {
+    text-align: left;
+    right: 0px;
+  }
+  .projecttxt {
+    font-size: 0.6em;
+    width: 50%;
+    position: absolute;
+    margin-top: 20.25em;
+    font-family: "Open Sans";
+  }
+  .projecttxt2 {
+    font-size: 0.6em;
+    width: 50%;
+    position: absolute;
+    margin-top: 920px;
+    font-family: "Open Sans"
+  }
+  .align2 {
+    margin-top: 180px;
+  }
+
+  .slider {
+    visibility: hidden;
+  }
+pdf {
+    width: 100% !important;
+    height: 138em;
+  }
+
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  width: 45em;
+}
+
+
+
+
+
+
+
+
